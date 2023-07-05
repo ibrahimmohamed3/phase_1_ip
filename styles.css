@@ -121,6 +121,7 @@ h1{
         font-family: serif;
         font-size:30px ;
         font-weight: bold;
+        margin: 50px auto;
     }
     .abt{
         position: absolute;
@@ -156,56 +157,63 @@ h1{
 
     }
     .cont{
-        
+        width: 80%;
+        margin: 50px auto;
+    }
+    .contact_box{
+        background-color: #cccccc;
+        display: flex;
+    }
+    .contact-left{
+        flex-basis: 60%;
+        padding: 40px 60px;
+    }
+    .contact-right{
+        flex-basis: 40%;
+        padding: 40px;
+        background: orange;
+        color: #fff;
+    }
+    h4{
+        margin-bottom: 10px;
+    }
+    .cont p{
+        margin-bottom: 40px;
+    }
+     
+    .input-row{
+        display: flex;
+        justify-content: space-between;
         margin-bottom: 20px;
-        display: block;
-        margin: 30px;
-        
     }
-    .cont_1{
-        margin: 30px;
+    input{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+        padding-bottom: 5px;
     }
-    .cont_2{
-        margin: 30px;
+    textarea{
+        width: 100%;
+        border: 1px solid #ccc;
+        outline: none;
+        padding: 10px;
+        box-sizing: border-box;
     }
-    .cont_3{
-        margin: 30px;
+    form button{
+        outline: none;
+        background: #7fc142;
+        font-weight: bold;
+        border: none;
+        border-radius: 3rem;
+        width: 100%;
+        margin-top: 20px;
+        height: 35px;
+
     }
-    
-     
-     .footer {
-       background-color: #f8f8f8;
-       padding: 20px;
-       text-align: center;
-     }
-     
-     .footer p {
-       margin-bottom: 20px;
-       justify-content: center;
-     }
-     
-     .footer .foot_img ul {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       list-style: none;
-       margin: 20px;
-       padding: 60px;
-     }
-     
-     .footer .foot_img li {
-       margin: 0 10px;
-     }
-     
-     .footer .foot_img img {
-       width: 30px;
-       height: 30px;
-     }
-     
-     .footer .foot_img span {
-       margin-left: 5px;
-     }
-     
+    tr td:first-child{
+        padding-right: 20px;
+    }
     
      
     
