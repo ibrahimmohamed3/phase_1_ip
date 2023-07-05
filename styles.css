@@ -95,33 +95,32 @@ h1{
     }
     
     #about{
-        height: 600px;
+
+        height: 800px;
+        background-color: #7fc142;
     }
     #rooms{
-        height: 1000px;
+        height: 1100px;
+        background-color:white;
     }
     #contact{
         height: 800px;
-    }
-    #about{
-        background-color: white;
-    }
-    #rooms{
-        background-color: red;
-    }
-    #contact{
         background-color: orange;
     }
+   
     html{
         scroll-behavior: smooth;
     }
-    .foot{
-        height: 90px;
+    .footer{
+        display: flex;
+        height: 400px;
         width: auto;
         background-color: #7fc142;
     }
     h2{
         font-family: serif;
+        font-size:30px ;
+        font-weight: bold;
     }
     .abt{
         position: absolute;
@@ -156,4 +155,59 @@ h1{
         padding-left: 20px;
 
     }
+    .cont{
+        
+        margin-bottom: 20px;
+        display: block;
+        margin: 30px;
+        
+    }
+    .cont_1{
+        margin: 30px;
+    }
+    .cont_2{
+        margin: 30px;
+    }
+    .cont_3{
+        margin: 30px;
+    }
+    
+     
+     .footer {
+       background-color: #f8f8f8;
+       padding: 20px;
+       text-align: center;
+     }
+     
+     .footer p {
+       margin-bottom: 20px;
+       justify-content: center;
+     }
+     
+     .footer .foot_img ul {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       list-style: none;
+       margin: 20px;
+       padding: 60px;
+     }
+     
+     .footer .foot_img li {
+       margin: 0 10px;
+     }
+     
+     .footer .foot_img img {
+       width: 30px;
+       height: 30px;
+     }
+     
+     .footer .foot_img span {
+       margin-left: 5px;
+     }
+     
+    
+     
+    
+    
    
