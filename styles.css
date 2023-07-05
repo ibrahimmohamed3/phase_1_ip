@@ -1,65 +1,147 @@
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'poppins', sans-serif;
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
-li{
-    list-style: none;
-}
-.flex{
-    display: flex;
-}
-.flex_space{
+
+.flex_space {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.logo{
-    margin-top: -13px;
-}
-button{
-    border: none;
-    background: none;
-    outline: none;
-    transition: none;
-    cursor:pointer;
-}
-.pri-btn{
-    padding: 15px 40px;
-    background: #7fc142;
-    font-weight: bold;
-    color: white;
-}
-.container{
-    max-width: 85%;
-    margin: auto;
 
+.logo {
+    margin: 8px;
+    height: 50px;
+    width: 50px;
+    
 }
-header ul{
-    display: inline-block;
+
+header ul {
+    display: flex;
+    list-style: none;
 }
+
 header ul li {
-    display: inline-block;
+    margin-right: 20px;
     text-transform: uppercase;
+    padding: 15PX;
 }
+
 header ul li a {
     color: #000;
-    margin: 0 10px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
-header ul li a:hover{
+
+header ul li a:hover {
     color: #7fc142;
 }
-header button{
-    padding: 13px 40px;
-    margin: 20px;
 
+
+
+
+.pri-btn {
+    padding: 15px 30px;
+    background: #cccccc;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 3rem;
 }
-header .navlinks span{
-    display: none;
+.main {
+    position: relative;
+    height: calc(100vh - 70px);
+    background-image: url('Images/main.jpg');
+    background-size: cover;
+    background-position: center;
+    
 }
+.navlinks{
+    background: #7fc142;
+}
+h1{
+    font-size: 80px;
+    font-family: serif;
+    font-weight: 400;
+    padding-top: 20%;
+    padding-left: 20px;
+    
+    }
+    .r-btn{
+        padding: 15px 30px;
+        background: #cccccc;
+        font-weight: bold;
+        color: black;
+        border: none;
+        border-radius: 3rem;
+        padding-left: 20px;
+    }
+    .c-btn{
+        padding: 15px 30px;
+        background: #7fc142;
+        font-weight: bold;
+        border: none;
+        border-radius: 3rem;
+        padding-left: 20px;
+    }
+    
+    #about{
+        height: 600px;
+    }
+    #rooms{
+        height: 1000px;
+    }
+    #contact{
+        height: 800px;
+    }
+    #about{
+        background-color: white;
+    }
+    #rooms{
+        background-color: red;
+    }
+    #contact{
+        background-color: orange;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .foot{
+        height: 90px;
+        width: auto;
+        background-color: #7fc142;
+    }
+    h2{
+        font-family: serif;
+    }
+    .abt{
+        position: absolute;
+        font-family: serif;
+        width: 70%;
+        left: 15%;
+        top: 130%;
+        font-size: 20px;
+    }
+    .img_bnd{
+        float: right;
+        width: 35%;
+
+    }
+    .box{
+        float: left;
+        padding: 20px;
+        margin: 20px;
+        padding-right: 20px;
+    }
+    .img-rooms{
+        
+    }
