@@ -138,10 +138,22 @@ h1{
     }
     .box{
         float: left;
-        padding: 20px;
-        margin: 20px;
-        padding-right: 20px;
+        padding: 20px;   
     }
-    .img-rooms{
-        
+
+    .box img{
+        border-radius: 1rem;
+        display: grid;
+        margin-left: 30px;
+    
     }
+    .box button{
+        padding: 15px 30px;
+        background: #7fc142;
+        font-weight: bold;
+        border: none;
+        border-radius: 3rem;
+        padding-left: 20px;
+
+    }
+   
