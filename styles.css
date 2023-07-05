@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.flex_space{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: -13px;
+}
+button{
+    border: none;
+    background: none;
+    outline: none;
+    transition: none;
+    cursor:pointer;
+}
+.pri-btn{
+    padding: 15px 40px;
+    background: #7fc142;
+    font-weight: bold;
+    color: white;
+}
+.container{
+    max-width: 85%;
+    margin: auto;
+
+}
+header ul{
+    display: inline-block;
+}
+header ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+header ul li a {
+    color: #000;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+header ul li a:hover{
+    color: #7fc142;
+}
+header button{
+    padding: 13px 40px;
+    margin: 20px;
+
+}
+header .navlinks span{
+    display: none;
+}
