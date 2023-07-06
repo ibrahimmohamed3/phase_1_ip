@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    
 }
 
 a {
@@ -60,7 +61,7 @@ header ul li a:hover {
 .main {
     position: relative;
     height: calc(100vh - 70px);
-    background-image: url('Images/main.jpg');
+    background-image: url('Images/img1.jpg');
     background-size: cover;
     background-position: center;
     
@@ -96,7 +97,7 @@ h1{
     
     #about{
 
-        height: 800px;
+        height: 600px;
         background-color: #7fc142;
     }
     #rooms{
@@ -128,7 +129,7 @@ h1{
         font-family: serif;
         width: 70%;
         left: 15%;
-        top: 130%;
+        top: 100%;
         font-size: 20px;
     }
     .img_bnd{
@@ -176,6 +177,7 @@ h1{
     }
     h4{
         margin-bottom: 10px;
+        font-size: 20px;
     }
     .cont p{
         margin-bottom: 40px;
@@ -214,7 +216,52 @@ h1{
     tr td:first-child{
         padding-right: 20px;
     }
-    
+    .footer-cont{
+        max-width: 1170px;
+        margin:auto;
+
+    }
+    .footer{
+        background-color: #fff;
+        margin: 0;
+    }
+    .footer ul{
+        list-style: none;
+    }
+    .row{
+        display: flex;
+        
+    }
+    .footer-col{
+        padding: 0 70px;
+    }
+    .footer-col h5{
+        font-size: 18px;
+        color: #000;
+        text-transform: capitalize;
+        font-weight: bold;
+        margin-bottom: 40px;
+        
+        
+    }
+   
+    .footer-col ul li a{
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: 300;
+        display: inline;
+    }
+    .footer-col .social-links a {
+        display: inline-block;
+        text-decoration: none;
+        height: 30px;
+        width: 30px;
+        background-color:#7fc142;
+        margin: 2px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 50%;
+    }
      
     
     
