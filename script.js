@@ -13,17 +13,18 @@ let btn10 = document.getElementById('btn10')
 let btn11= document.getElementById('btn11')
 let btn12= document.getElementById('btn12')
 
-//add eventlistner to the main btn
-priBtn.addEventListener('click',thanknote )
+// //add eventlistner to the main btn
+// priBtn.addEventListener('click',thanknote )
 
-//fuction of alert 
-function thanknote(){
-    return alert('Thank you for chosing us')
-}
-fetch('http://localhost:3000/rooms/').then (response => console.log(response))
-.then(data => data)
+// //fuction of alert 
+// function thanknote(){
+//     return alert('Thank you for chosing us')
+// }
+// fetch('http://localhost:3000/rooms/').then (response => console.log(response))
+// .then(data => data)
 
-// Retrieve the room elements and store them in an array
+// Retrieve the room data and store them in an array
+// Retrieve the room data and store them in an array
 const rooms = Array.from(document.querySelectorAll('.box'));
 
 // Function to update the available rooms count
@@ -35,6 +36,7 @@ function updateAvailableRooms(roomIndex) {
   if (availableRooms > 0) {
     availableRooms--;
     availableRoomsElement.textContent = `Available rooms: ${availableRooms}`;
+    alert('Thank you for choosing Incognito Hotel');
   } else {
     alert('Sorry, all rooms have been accommodated.');
   }
@@ -47,3 +49,4 @@ rooms.forEach((room, index) => {
     updateAvailableRooms(index);
   });
 });
+
