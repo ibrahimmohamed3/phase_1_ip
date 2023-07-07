@@ -2,7 +2,7 @@
 
 Welcome to the Incognito Hotel website! This website allows users to book rooms and manage room availability using an API.
 
-##### Features
+## Features
 
 View available rooms: Users can see the number of available rooms for each room type on the website.
 Book rooms: Users can book a room by clicking the "Book Now" button next to the room type. The available room count is updated accordingly.
