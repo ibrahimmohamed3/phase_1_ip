@@ -23,8 +23,7 @@ let btn12= document.getElementById('btn12')
 // fetch('http://localhost:3000/rooms/').then (response => console.log(response))
 // .then(data => data)
 
-// Retrieve the room data and store them in an array
-// Retrieve the room data and store them in an array
+
 const rooms = Array.from(document.querySelectorAll('.box'));
 
 // Function to update the available rooms count
@@ -42,7 +41,7 @@ function updateAvailableRooms(roomIndex) {
   }
 }
 
-// Attach event listeners to the "Book Now" buttons
+// make the  event listeners to the booking button
 rooms.forEach((room, index) => {
   const bookNowButton = room.querySelector('button');
   bookNowButton.addEventListener('click', () => {
